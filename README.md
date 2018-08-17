@@ -46,3 +46,9 @@
         #向sender里的user好友发送消息
         sender.send(mess)
 ```
+## 启动方式
+>* 先运行 monitorwechat/monitorwechat/mywxpy/loginbot.py文件
+>* 接着返回 monitorwechat 文件夹下，运行 python manage.py runserver IP:port 
+>* 访问 http://IP/login 进行扫码登陆
+>* 然后程序里面调用 http://IP/send 接口，传入body {"mess","要发送的消息"}
+>* 修改要发送的好友或群聊在 loginbot.py 里面修改
