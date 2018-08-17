@@ -9,6 +9,8 @@
    <br>`pip install wxpy`
 >* 在python中安装 wechat-sender
    <br>`pip install wechat-sender`
+>* 在python中安装django
+   <br>`pip install django` 
 ## 首先wxpy中进行微信的登陆创建一个机器人
 ```
     from wxpy import *
